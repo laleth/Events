@@ -1,0 +1,61 @@
+body{
+    background: rgb(148,54,159);
+background: linear-gradient(90deg, rgba(148,54,159,1) 0%, rgba(253,29,29,1) 100%);
+}
+
+.events{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    
+}
+.flex-container {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: indianred;
+  }
+  
+  .flex-container > div {
+    background-color: grey;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    height: 300px;
+    width: 300px;
+  }
+
+  .skill{
+    margin-top: 50px;
+    height: 100px;
+    width: 120px;
+  }
+  .head1{
+    margin-left: 100px;
+    font-size: 25px;
+  }
+
+  .date{
+    float: right;
+    margin-top: 80px;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+
+ .seat{
+    font-size: 20px;
+    float: right;
+    margin-top: 1px;
+ }
+
+ a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 50px;
+  }
